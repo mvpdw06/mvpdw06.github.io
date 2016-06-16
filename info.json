@@ -1,0 +1,36 @@
+{
+    "name": "Ryan",
+    "frontend": [
+        "JavaScript",
+        "jQuery",
+        "Ajax",
+        "TypeScript",
+        "Vue.js",
+        "AngularJS",
+        "HTML",
+        "CSS"
+    ],
+    "backend": [
+        "C#.NET MVC",
+        "EntityFramework",
+        "Linq",
+        "Lambda"
+    ],
+    "VCS": [
+        "TortoiseSVN",
+        "Team Foundation Service",
+        "Github"
+    ],
+    "DataBase": [
+        "MS SQL",
+        "Oracle"
+    ],
+    "others": [
+        "Normalization",
+        "Object-Oriented Programming",
+        "UML"
+    ],
+    "email": "mvpdw06@gmail.com",
+    "blog": "http://ryanhsutw.blogspot.tw/",
+    "github": "https://github.com/mvpdw06"
+}
