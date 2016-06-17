@@ -1,0 +1,14 @@
+.container{
+    margin: 0;
+    padding: 0;
+}
+.background{
+    font-family: 'Noto Sans', sans-serif;
+    z-index: 999;
+    background: url("galaxy.jpg") no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.inner_container{
+    margin: 0 auto;
+}
