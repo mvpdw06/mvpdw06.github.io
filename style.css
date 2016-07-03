@@ -1,8 +1,110 @@
+body{
+    margin:0;
+    background: #ECEFF1;
+    color:#444444;
+}
 .container{
     margin: 0;
     padding: 0;
+    font-family: 'Noto Sans', sans-serif;
 }
-.background{
+.header{
+    z-index: 0;
+    background: #99BBFF;
+    position: relative;
+}
+.header-layout{
+    height: 100%;
+    width: 100%;
+    padding-top: 80px;
+    padding-left: 80px;
+}
+.header-text{
+    font-size: 1.8em;
+    font-weight: 300;
+    margin-left: 24px;
+}
+.connection{
+    height: 100px;
+    padding-left: 80px;
+}
+.connection div{
+    float:left;
+    padding:40px;
+}
+.body{
+    margin-top: 10px;
+    height: 100%;
+    width: 100%;
+}
+.introduction{
+    /*background: red;*/
+    width: 250px;
+    margin: 0px auto;
+}
+.thumbphoto{
+    background: url("myPhoto.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius:120px;
+    height: 250px
+}
+.selfintroduction{
+    /*background: sienna;*/
+    padding: 10px;
+    font-size: 1.8em;
+    font-weight: 300;
+    margin-left: -70px;
+    margin-right: -100px;
+    padding-bottom: 20px;
+    /*padding-top: 200px;*/
+}
+
+.thumbframe{
+    background: yellow;
+    width:80px;
+    height:80px;
+    border-radius:99em;
+}
+.others{
+    /*background: lightgreen;*/
+    height: 100%;
+    margin: 0px auto;
+    text-align: center;
+}
+.others  div {
+    background: #99BBFF;
+    border:1;
+    height: 100%;
+    min-width: 100px;
+    max-width: 500px;
+    display: inline-block;/*讓div並排*/ 
+    vertical-align: top;/*就算個個div行數不同，也一律向上對齊*/ 
+    padding-bottom: 20px;
+}
+.others div div {
+    text-align: left;
+    padding: 10px;
+}
+.footer{
+    margin-top: 10px;
+    background: white;
+    height: 170px;
+}
+.footertitle{
+    padding-top: 70px;
+    padding-left: 50px;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+.footercontext{
+    padding-left: 70px;
+    font-size: 1em;
+    font-weight: 300;
+}
+
+/*.background{
     font-family: 'Noto Sans', sans-serif;
     z-index: 999;
     background: url("galaxy.jpg") no-repeat;
@@ -11,4 +113,4 @@
 }
 .inner_container{
     margin: 0 auto;
-}
+}*/
