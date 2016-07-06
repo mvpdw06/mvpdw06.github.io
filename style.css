@@ -31,6 +31,7 @@ body{
 .connection div{
     float:left;
     padding:40px;
+    text-decoration: none;
 }
 .body{
     margin-top: 10px;
@@ -102,6 +103,19 @@ body{
     padding-left: 70px;
     font-size: 1em;
     font-weight: 300;
+}
+.thisgit{
+    float: right;
+    padding-right: 10%;
+    position: relative;
+    margin-top: -40px;
+    font-size: 1.3em;
+    text-decoration: none;
+}
+
+a{
+    color:#444444;
+    text-decoration: none;
 }
 
 /*.background{
